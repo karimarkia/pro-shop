@@ -1,8 +1,15 @@
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 const App = () => {
   return (
-    <div>
-      Welcome to proShop App 
-    </div>
+    <>
+      <Header />
+      <main>
+        <h1>Welcome to proShop App</h1>
+      </main>
+      <Footer />
+    </>
   )
 }
 

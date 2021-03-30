@@ -8,8 +8,8 @@ const Home = () => {
       <h1>Latest Products</h1>
       <Row>
         {productsArr.map((product) => (
-          <Col sm={12} md={6} lg={4} xl={3}>
-            <Products product={product} />
+          <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
+            <Products  product={product} />
           </Col>
         ))}
       </Row>

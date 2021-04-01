@@ -7,7 +7,6 @@ const connectDB = async () => {
       useNewUrlParser: true,
       useCreateIndex: true,
     })
-    console.log(conn.connection.host)
   } catch (error) {
     console.error(error.message)
     process.exit(1)
